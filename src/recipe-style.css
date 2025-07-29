@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home-button {
+    text-decoration: none;
+    background-color: honeydew;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    text-decoration: underline;
+}
+.intro {
+    background-color: honeydew;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 10fr;
+    grid-template-areas: 
+        'img h2'
+        'img p';
+}
+.intro > img {
+    grid-area: img;
+    width: calc(calc(3/5)*calc(100vw - 2rem));
+    height: auto;
+    margin: 1rem;
+}
+.intro > h2 {
+    grid-area: h2;
+    text-align: center;
+    margin-inline-end: 1rem;
+    margin-block-end: 0rem;
+}
+.intro > p {
+    grid-area: p;
+    margin-inline-end: 1rem;
+}
