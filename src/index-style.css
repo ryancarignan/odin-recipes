@@ -5,6 +5,7 @@ body {
     background-color: white;
 }
 h1 {
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     background-color: color-mix(in hsl, honeydew 95%, black);
     margin: 0px;
