@@ -21,10 +21,12 @@ ul > li {
     list-style-type: none;
     background-color: aquamarine;
     margin: 0px;
-    flex: 1;
     text-align: center;
     display: flex;
+    flex: 1;
     justify-content: center;
+    height: 3rem;
+    min-width: 35ch;
 }
 ul > li:hover {
     background-color: color-mix(in hsl, aquamarine 75%, black);
@@ -36,4 +38,9 @@ ul > li > a {
     margin: 0px;
     padding: 1rem;
     flex: 1;
+}
+ul > li > img {
+    width: auto;
+    height: 3rem;
+    
 }
