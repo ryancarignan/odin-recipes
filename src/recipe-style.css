@@ -16,7 +16,7 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 h2 {
-    text-decoration: underline;
+    background-color: color-mix(in hsl, honeydew 95%, black);
 }
 .intro {
     background-color: honeydew;
@@ -42,4 +42,42 @@ h2 {
 .intro > p {
     grid-area: p;
     margin-inline-end: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'ingredients steps';
+    gap: 1rem;
+    margin-block-start: 1rem;
+}
+main h2,
+main h3 {
+    text-align: center;
+}
+main h2 {
+    margin-block-start: 0px;
+}
+main h3 {
+    margin-block-start: 1rem;
+    margin-block-end: 0.25rem;
+    text-decoration: underline;
+}
+main ul,
+main ol {
+    margin: 0px;
+}
+main .ingredients {
+    grid-area: ingredients;
+}
+main .steps {
+    grid-area: steps;
+}
+main .steps ol li {
+    margin-block-end: 1rem;
+}
+main > * {
+    background-color: honeydew;
+    padding: 1rem;
 }
