@@ -2,6 +2,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
     padding: 0px;
+    background-color: white;
 }
 h1 {
     text-align: center;
@@ -21,9 +22,9 @@ ul > li {
     background-color: aquamarine;
     margin: 0px;
     flex: 1;
-    padding-block-start: 1rem;
-    padding-block-end: 1rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 ul > li:hover {
     background-color: color-mix(in hsl, aquamarine 75%, black);
@@ -31,4 +32,8 @@ ul > li:hover {
 ul > li > a {
     text-decoration: none;
     color: black;
+    display: inline-block;
+    margin: 0px;
+    padding: 1rem;
+    flex: 1;
 }
