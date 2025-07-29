@@ -44,3 +44,12 @@ ul > li > img {
     width: auto;
     height: 3rem;
 }
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: honeydew;
+    margin-bottom: 1rem;
+    width: calc(100vw - 2rem);
+    text-align: center;
+}
