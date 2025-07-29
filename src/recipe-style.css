@@ -26,7 +26,7 @@ h2 {
     background-color: honeydew;
     display: grid;
     grid-template-columns: 3fr 2fr;
-    grid-template-rows: 1fr 13fr;
+    grid-template-rows: 3rem 1fr;
     grid-template-areas: 
         'img h2'
         'img p';
